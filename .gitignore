@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.DS_Store
+experiments/results/*.csv
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/

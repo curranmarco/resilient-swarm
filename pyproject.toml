@@ -1,0 +1,16 @@
+[project]
+name = "resilient-swarm"
+version = "0.0.1"
+description = "Multi-drone search-and-track with in-flight task reallocation after failure"
+requires-python = ">=3.11"
+dependencies = ["numpy", "matplotlib"]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
